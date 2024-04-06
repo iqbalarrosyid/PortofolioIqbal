@@ -30,7 +30,7 @@ p {
 @media (max-width: 768px) {
   .navbar-brand,
   .nav-link {
-    font-size: 12px; /* Atur ukuran font lebih kecil untuk perangkat seluler di sini */
+    font-size: 5px; /* Atur ukuran font lebih kecil untuk perangkat seluler di sini */
   }
 }
 
