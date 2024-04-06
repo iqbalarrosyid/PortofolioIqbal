@@ -3,15 +3,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
+/* 
 p {
   font-family: "Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji";
-}
+} */
 
 @media (max-width: 992px) {
   .navbar-collapse {
@@ -21,7 +22,7 @@ p {
 
 .bg-navbar {
   background-color: rgba(22, 22, 23, 0.692);
-  transition: background-color 0.3s ease; /* Menambahkan efek transisi untuk perubahan warna */
+  transition: background-color 0.3s ease;
 }
 
 .navbar-brand:visited {
@@ -47,6 +48,11 @@ p {
 
 .navbar-scrolled .navbar-nav .nav-link:hover,
 .navbar-scrolled .navbar-nav .nav-link:active {
+  color: #f4623a; /* Ganti warna sesuai kebutuhan */
+}
+
+.navbar-expanded .navbar-nav .nav-link:hover,
+.navbar-expanded .navbar-nav .nav-link:active {
   color: #f4623a; /* Ganti warna sesuai kebutuhan */
 }
 

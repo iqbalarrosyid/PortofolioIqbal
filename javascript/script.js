@@ -12,5 +12,11 @@ window.addEventListener("scroll", function () {
 document
   .querySelector(".navbar-toggler")
   .addEventListener("click", function () {
-    document.querySelector(".navbar").classList.toggle("navbar-scrolled");
+    var navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("navbar-expanded");
+
+    // Menambahkan kelas navbar-scrolled jika belum di-scroll tapi navbar sudah di-expand
+    if (!navbar.classList.contains("navbar-scrolled")) {
+      navbar.classList.add("navbar-scrolled");
+    }
   });
