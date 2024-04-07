@@ -25,8 +25,17 @@ p {
   }
 }
 
-.navbar {
-  padding: 10px 15px; /* Sesuaikan nilai padding sesuai kebutuhan */
+@media (max-width: 767px) {
+  .navbar {
+    width: 100%; /* Setel lebar navbar menjadi 100% dari lebar layar */
+    padding: 0; /* Hilangkan padding */
+    margin: 0; /* Hilangkan margin */
+  }
+
+  .navbar-nav {
+    width: 100%; /* Setel lebar navbar-nav menjadi 100% dari lebar navbar */
+    text-align: center; /* Pusatkan item navbar */
+  }
 }
 
 .bg-navbar {
