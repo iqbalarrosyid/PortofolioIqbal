@@ -25,6 +25,10 @@ p {
   }
 }
 
+.navbar {
+  padding: 10px 15px; /* Sesuaikan nilai padding sesuai kebutuhan */
+}
+
 .bg-navbar {
   background-color: rgba(22, 22, 23, 0.692);
   transition: background-color 0.3s ease;
