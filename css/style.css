@@ -65,6 +65,15 @@ p {
   color: #f4623a; /* Ganti warna sesuai kebutuhan */
 }
 
+.navbar-toggler-custom {
+  color: #ffffff; /* Ganti dengan warna yang Anda inginkan */
+}
+
+.navbar-scrolled .navbar-toggler-custom {
+  color: #000; /* Ganti dengan warna yang Anda inginkan ketika discroll */
+}
+
+
 .navbar li {
   margin-right: 15px;
 }
