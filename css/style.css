@@ -27,15 +27,13 @@ p {
 
 @media (max-width: 767px) {
   .navbar {
-    width: 100%; /* Setel lebar navbar menjadi 100% dari lebar layar */
+    width: 100vh; /* Setel lebar navbar menjadi 100% dari lebar layar */
     padding: 0; /* Hilangkan padding */
-    margin: 0; /* Hilangkan margin */
+    margin: 10px; /* Hilangkan margin */
   }
 
   .navbar-nav {
-    width: 100%; /* Setel lebar navbar-nav menjadi 100% dari lebar navbar */
-    text-align: center; /* Pusatkan item navbar */
-  }
+    width: 100vh; /* Setel lebar navbar-nav menjadi 100% dari lebar navbar */
 }
 
 .bg-navbar {
