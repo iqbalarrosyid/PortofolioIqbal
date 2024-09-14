@@ -51,7 +51,7 @@ p {
 }
 
 .navbar-scrolled .navbar-brand:hover {
-  color: #f4623a; /* Ganti warna sesuai kebutuhan */
+  color: #384B70; /* Ganti warna sesuai kebutuhan */
 }
 
 .navbar-scrolled .navbar-nav .nav-link {
@@ -60,12 +60,12 @@ p {
 
 .navbar-scrolled .navbar-nav .nav-link:hover,
 .navbar-scrolled .navbar-nav .nav-link:active {
-  color: #f4623a; /* Ganti warna sesuai kebutuhan */
+  color: #384B70; /* Ganti warna sesuai kebutuhan */
 }
 
 .navbar-expanded .navbar-nav .nav-link:hover,
 .navbar-expanded .navbar-nav .nav-link:active {
-  color: #f4623a; /* Ganti warna sesuai kebutuhan */
+  color: #384B70; /* Ganti warna sesuai kebutuhan */
 }
 
 .navbar-toggler-icon {
@@ -90,7 +90,7 @@ p {
 }
 
 .banner {
-  background-image: url("https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg");
+  background-image: url("https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-size: cover;
   height: 680px;
@@ -148,7 +148,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #384B70;
   opacity: 1;
 }
 
@@ -196,19 +196,19 @@ hr.divider-light {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #f4623a;
-  --bs-btn-border-color: #f4623a;
+  --bs-btn-bg: #384B70;
+  --bs-btn-border-color: #384B70;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #cf5331;
-  --bs-btn-hover-border-color: #c34e2e;
+  --bs-btn-hover-bg: #182f5c;
+  --bs-btn-hover-border-color: #182f5c;
   --bs-btn-focus-shadow-rgb: 246, 122, 88;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #c34e2e;
-  --bs-btn-active-border-color: #b74a2c;
+  --bs-btn-active-bg: #182f5c;
+  --bs-btn-active-border-color: #182f5c;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #f4623a;
-  --bs-btn-disabled-border-color: #f4623a;
+  --bs-btn-disabled-bg: #384B70;
+  --bs-btn-disabled-border-color: #384B70;
 }
 
 :root {
@@ -217,7 +217,7 @@ hr.divider-light {
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #f4623a;
+  --bs-orange: #384B70;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -235,7 +235,7 @@ hr.divider-light {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #f4623a;
+  --bs-primary: #384B70;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -283,7 +283,7 @@ hr.divider-light {
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f4623a;
+  --bs-link-color: #384B70;
   --bs-link-hover-color: #c34e2e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
