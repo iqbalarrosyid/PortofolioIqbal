@@ -91,7 +91,7 @@ p {
   background-image: url("https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-size: cover;
-  height: 680px;
+  height: 720px;
 }
 
 .banner p {
@@ -100,7 +100,7 @@ p {
 
 .bg-banner {
   background-color: rgba(0, 0, 0, 0.534);
-  height: 680px;
+  height: 720px;
 }
 
 .img-banner {
